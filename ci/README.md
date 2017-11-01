@@ -1,4 +1,4 @@
-## Pipeline setup and execution
+# Pipeline setup and execution
 
 How to setup this sample pipeline on your Concourse server:
 
