@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -xe
+
+cd spring-music/bgd-app
+npm install
+mocha tests --recursive

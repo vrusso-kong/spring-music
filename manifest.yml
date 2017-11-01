@@ -1,0 +1,8 @@
+---
+applications:
+- name: spring-music
+  host: spring-music-vince
+  memory: 1G
+  buildpack: java_buildpack
+  path: build/libs/spring-music.jar
+

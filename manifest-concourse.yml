@@ -1,0 +1,7 @@
+---
+applications:
+- name: APPNAME
+  memory: 1G
+  buildpack: java_buildpack
+  path: build/libs/spring-music.jar
+
