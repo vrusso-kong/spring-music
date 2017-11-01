@@ -58,7 +58,7 @@ jobs:
   - put: PWS
     params:
       manifest: app-manifest-output/manifest.yml
-      path: spring-music.jar
+      path: build/libs/spring-music.jar
 
 #- name: load-tests
 #  serial: true
