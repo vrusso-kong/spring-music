@@ -23,14 +23,14 @@ resources:
     space: {{pws-space}}
 
 jobs:
-#- name: unit-tests
-#  serial: true
-#  public: true
-#  plan:
-#  - get: spring-music
-#    trigger: true
-#  - task: run-unit-tests
-#    file: spring-music/ci/tasks/unit-tests.yml
+- name: unit-tests
+  serial: true
+  public: true
+  plan:
+  - get: spring-music
+    trigger: true
+  - task: run-unit-tests
+    file: spring-music/ci/tasks/unit-tests.yml
 
 - name: deploy-app
   serial: true

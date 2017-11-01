@@ -2,6 +2,5 @@
 
 set -xe
 
-cd spring-music/bgd-app
-npm install
-mocha tests --recursive
+cd spring-music/
+./gradlew assemble
