@@ -4,4 +4,6 @@ set -xe
 
 cd spring-music/
 ./gradlew assemble
-cp build/libs/spring-music.jar app-artifact-output/.
+cd ..
+
+cp spring-music/build/libs/spring-music.jar build-output/.
