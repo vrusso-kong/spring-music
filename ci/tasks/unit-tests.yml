@@ -9,6 +9,9 @@ image_resource:
 
 inputs:
 - name: spring-music
+#
+#outputs:
+#- name: app-artifact-output
 
 run:
   path: spring-music/ci/tasks/run-unit-tests

@@ -4,4 +4,4 @@ set -xe
 
 cd spring-music/
 ./gradlew assemble
-cp build/libs/spring-music.jar /tmp/build/put/
+cp build/libs/spring-music.jar ./tmp/build/put/
