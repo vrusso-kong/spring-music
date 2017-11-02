@@ -27,6 +27,8 @@ cf map-route $NEXT_APP_HOSTNAME $PWS_DOMAIN_NAME --hostname $MAIN_ROUTE_HOSTNAME
 
 cf routes
 
+sleep 30
+
 echo "Removing previous main app route that pointed to $CURRENT_APP_HOSTNAME instance"
 
 set +e
